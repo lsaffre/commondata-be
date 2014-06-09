@@ -25,6 +25,10 @@ Namen, Luik, Henegouwen, Limburg, Waals-Brabant
 
 The following number will decrease when we continue to change "city"
 entries into "village" or "township" entries:
+
 >>> liege = wallonia.children[1]
 >>> len(liege.children)
 353
+>>> eupen = liege.get(fr="Eupen")
+>>> print(eupen.zip_code)
+4700

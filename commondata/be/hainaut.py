@@ -19,7 +19,9 @@ from __future__ import unicode_literals
 
 def populate(pg):
 
+    pg.set_args('fr nl de en')
     pg.province("Hainaut", "Henegouwen", "Hennegau", "Hainaut")
+    pg.set_args('zip_code fr nl de en')
     
     pg.city("6000", "Charleroi", "", "", "")
     pg.city("6001", "Marcinelle", "", "", "")

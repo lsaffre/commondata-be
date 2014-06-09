@@ -19,10 +19,12 @@ from __future__ import unicode_literals
 
 def populate(pg):
 
+    pg.set_args('fr nl de en')
     pg.province("Flandre de l'Ouest", "West-Vlaanderen", "Westflandern", "Flandre de l'Ouest")
+    pg.set_args('zip_code fr nl de en')
 
-    pg.city("8000", "Koolkerke", "", "", "")
     pg.city("8000", "Bruges", "Brugge", "Brügge", "Brügge")
+    pg.city("8000", "Koolkerke", "", "", "")
     pg.city("8020", "Hertsberge", "", "", "")
     pg.city("8020", "Oostkamp", "", "", "")
     pg.city("8020", "Ruddervoorde", "", "", "")

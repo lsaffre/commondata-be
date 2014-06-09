@@ -19,7 +19,10 @@ from __future__ import unicode_literals
 
 def populate(pg):
 
+    pg.set_args('fr nl de en')
     pg.province("Liège", "Luik", "Lüttich", "Liège")
+    pg.set_args('zip_code fr nl de en')
+
     pg.city("4000", "Liège", "Luik", "Lüttich", "Liège")
     pg.township("4000", "Glain", "", "")
     pg.township("4000", "Rocourt", "", "")
@@ -313,7 +316,7 @@ def populate(pg):
     pg.village("4701", "Kettenis", "", "", "")
     pg.city("4710", "Lontzen", "", "", "")
     pg.city("4711", "Walhorn", "", "", "")
-    pg.city("4720", "La Calamine", "", "Kelmis", "Kelmis")
+    pg.city("4720", "La Calamine", "", "Kelmis")
     pg.city("4721", "Neu-Moresnet", "", "", "")
     pg.city("4728", "Hergenrath", "", "", "")
     pg.village("4730", "Raeren", "", "", "")

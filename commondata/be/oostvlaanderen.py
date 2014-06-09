@@ -19,9 +19,13 @@ from __future__ import unicode_literals
 
 def populate(pg):
 
-    pg.province("Flandre de l'Est", "Oost-Vlaanderen", "Ostflandern", "Flandre de l'Est")
+    pg.set_args('fr nl de en')
+    pg.province(
+        "Flandre de l'Est", "Oost-Vlaanderen", "Ostflandern")
+
+    pg.set_args('zip_code fr nl de en')
     
-    pg.city("9300", "Alost", "Aalst", "Aalst", "Aalst")
+    pg.city("9300", "Alost", "Aalst", "Aalst")
     pg.village("9308", "Gijzegem", "", "", "")
     pg.village("9310", "Baardegem ", "", "", "")
     pg.village("9320", "Erembodegem", "", "", "")
@@ -153,7 +157,7 @@ def populate(pg):
     pg.city("9500", "Overboelare", "", "", "")
     pg.city("9500", "Viane", "", "", "")
     pg.city("9500", "Zarlardinge", "", "", "")
-    pg.city("9500", "Grammont", "Geraardsbergen", "Grammont", "Grammont")
+    pg.city("9500", "Grammont", "Geraardsbergen", "Grammont")
     pg.city("9506", "Grimminge", "", "", "")
     pg.city("9506", "Idegem", "", "", "")
     pg.city("9506", "Nieuwenhove", "", "", "")
@@ -165,7 +169,9 @@ def populate(pg):
     pg.city("9520", "Oomb.(St-Lievens-Houtem)", "", "", "")
     pg.city("9520", "Vlierzele", "", "", "")
     pg.city("9520", "Zonnegem", "", "", "")
-    pg.city("9520", "Hautem-Saint-Liévin", "Sint-Lievens-Houtem", "Sint-Lievens-Houtem", "Sint-Lievens-Houtem")
+    pg.city(
+        "9520", "Hautem-Saint-Liévin",
+        "Sint-Lievens-Houtem", "Sint-Lievens-Houtem")
     pg.city("9521", "Letterhoutem", "", "", "")
     pg.city("9550", "Herzele", "", "", "")
     pg.city("9550", "Hillegem", "", "", "")
@@ -273,7 +279,8 @@ def populate(pg):
     pg.city("9820", "Merelbeke", "", "", "")
     pg.city("9820", "Munte", "", "", "")
     pg.city("9820", "Schelderode", "", "", "")
-    pg.city("9830", "Laethem-Saint-Martin", "Sint-Martens-Latem", "Sint-Martens-Latem", "Sint-Martens-Latem")
+    pg.city("9830", "Laethem-Saint-Martin",
+            "Sint-Martens-Latem", "Sint-Martens-Latem")
     pg.city("9831", "Deurle", "", "", "")
     pg.city("9840", "De Pinte", "", "", "")
     pg.city("9840", "Zevergem", "", "", "")
