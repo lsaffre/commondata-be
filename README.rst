@@ -4,6 +4,12 @@ The ``commondata.be`` package
 `Common knowledge <https://github.com/lsaffre/commondata>`_ about
 Belgium. Freely available and maintained in Python.
 
+.. note::
+
+  This package is no longer maintained.
+  See http://lino-framework.org/tickets/109.html
+
+
 This currently includes a list of Belgian places in multiple languages
 with zip codes.
 
