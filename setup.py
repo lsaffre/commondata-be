@@ -20,8 +20,8 @@ License :: OSI Approved :: GNU General Public License (GPL)
 Natural Language :: English
 Operating System :: OS Independent""".splitlines())
 
-SETUP_INFO.update(
-    long_description=file('README.rst').read().decode('utf-8'))
+SETUP_INFO.update(long_description=open('README.rst').read())
+# .decode('utf-8')
 
 SETUP_INFO.update(packages=[str(n) for n in """
 commondata.be
