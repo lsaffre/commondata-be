@@ -1,17 +1,17 @@
+=============================
 The ``commondata.be`` package
 =============================
 
+
+
 `Common data <https://github.com/lsaffre/commondata>`_ about
-Belgium. Freely available and maintained in Python.
-
-Note: we are discussing whether this package is meaningful.  
-See http://lino-framework.org/tickets/109.html
-
+Belgium, freely available and maintained in Python.
 
 This currently includes a list of Belgian places in multiple languages
 with zip codes.
 
-DISCLAIMER: This comes with no warranty at all.
+DISCLAIMER: This comes with no warranty at all.  We are still
+discussing whether this package is meaningful.
 
 Usage example:
 
@@ -36,3 +36,5 @@ entries into "village" or "township" entries:
 >>> eupen = liege.get(fr="Eupen")
 >>> print(eupen.zip_code)
 4700
+
+
