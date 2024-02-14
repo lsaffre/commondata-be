@@ -4,14 +4,12 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
     pg.province("Hainaut", "Henegouwen", "Hennegau", "Hainaut")
     pg.set_args('zip_code fr nl de en')
-    
+
     pg.city("6000", "Charleroi", "", "", "")
     pg.city("6001", "Marcinelle", "", "", "")
     pg.city("6010", "Couillet", "", "", "")
@@ -181,8 +179,6 @@ def populate(pg):
     pg.city("6690", "Vielsalm", "", "", "")
     pg.city("6692", "Petit-Thier", "", "", "")
     pg.city("6698", "Grand-Halleux", "", "", "")
-    
-    
 
     pg.city("7000", "Mons", "Bergen", "Bergen", "Mons")
     pg.city("7011", "Ghlin", "", "", "")
@@ -244,7 +240,8 @@ def populate(pg):
     pg.city("7090", "Petit-Roeulx-lez-Braine", "", "", "")
     pg.city("7090", "Ronquières", "", "", "")
     pg.city("7090", "Steenkerque (Ht.)", "", "", "")
-    pg.city("7090", "Braine-le-Comte", "'s-Gravenbrakel", "Braine-le-Comte", "Braine-le-Comte")
+    pg.city("7090", "Braine-le-Comte", "'s-Gravenbrakel", "Braine-le-Comte",
+            "Braine-le-Comte")
     pg.city("7100", "Haine-Saint-Paul", "", "", "")
     pg.city("7100", "Haine-Saint-Pierre", "", "", "")
     pg.city("7100", "La Louvière", "", "", "")
@@ -429,7 +426,8 @@ def populate(pg):
     pg.city("7780", "Comines", "", "", "")
     pg.city("7780", "Komen", "", "", "")
     pg.city("7780", "Komen-Waasten", "", "", "")
-    pg.city("7780", "Comines-Warneton", "Komen-Waasten", "Comines-Warneton", "Comines-Warneton")
+    pg.city("7780", "Comines-Warneton", "Komen-Waasten", "Comines-Warneton",
+            "Comines-Warneton")
     pg.city("7781", "Houthem (Comines)", "", "", "")
     pg.city("7782", "Ploegsteert", "", "", "")
     pg.city("7783", "Bizet", "", "", "")

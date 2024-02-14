@@ -1,17 +1,16 @@
 # -*- coding: UTF-8 -*-
 from setuptools import setup
 
-SETUP_INFO = dict(
-    name='commondata.be',
-    version='0.0.3',
-    install_requires=['commondata'],
-    description="Common data about Belgium",
-    license='GPL',
-    test_suite='tests',
-    author='Luc Saffre',
-    author_email='luc.saffre@gmail.com',
-    url="https://github.com/lsaffre/commondata-be",
-    classifiers="""\
+SETUP_INFO = dict(name='commondata.be',
+                  version='0.0.3',
+                  install_requires=['commondata'],
+                  description="Common data about Belgium",
+                  license='GPL',
+                  test_suite='tests',
+                  author='Luc Saffre',
+                  author_email='luc.saffre@gmail.com',
+                  url="https://github.com/lsaffre/commondata-be",
+                  classifiers="""\
 Programming Language :: Python
 Programming Language :: Python :: 2.6
 Programming Language :: Python :: 2.7
@@ -57,7 +56,8 @@ entries into "village" or "township" entries:
 
 """)
 
-SETUP_INFO.update(packages=[str(n) for n in """
+SETUP_INFO.update(
+    packages=[str(n) for n in """
 commondata.be
 """.splitlines() if n])
 

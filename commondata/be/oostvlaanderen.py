@@ -4,16 +4,13 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
-    pg.province(
-        "Flandre de l'Est", "Oost-Vlaanderen", "Ostflandern")
+    pg.province("Flandre de l'Est", "Oost-Vlaanderen", "Ostflandern")
 
     pg.set_args('zip_code fr nl de en')
-    
+
     pg.city("9300", "Alost", "Aalst", "Aalst")
     pg.village("9308", "Gijzegem", "", "", "")
     pg.village("9310", "Baardegem ", "", "", "")
@@ -47,7 +44,8 @@ def populate(pg):
     pg.city("9090", "Gontrode", "", "", "")
     pg.city("9090", "Melle", "", "", "")
     pg.city("9100", "Nieuwkerken-Waas", "", "", "")
-    pg.city("9100", "Saint-Nicolas", "Sint-Niklaas", "Saint-Nicolas", "Saint-Nicolas")
+    pg.city("9100", "Saint-Nicolas", "Sint-Niklaas", "Saint-Nicolas",
+            "Saint-Nicolas")
     pg.city("9111", "Belsele", "", "", "")
     pg.city("9112", "Sinaai-Waas", "", "", "")
     pg.city("9120", "Beveren-Waas", "", "", "")
@@ -158,9 +156,8 @@ def populate(pg):
     pg.city("9520", "Oomb.(St-Lievens-Houtem)", "", "", "")
     pg.city("9520", "Vlierzele", "", "", "")
     pg.city("9520", "Zonnegem", "", "", "")
-    pg.city(
-        "9520", "Hautem-Saint-Liévin",
-        "Sint-Lievens-Houtem", "Sint-Lievens-Houtem")
+    pg.city("9520", "Hautem-Saint-Liévin", "Sint-Lievens-Houtem",
+            "Sint-Lievens-Houtem")
     pg.city("9521", "Letterhoutem", "", "", "")
     pg.city("9550", "Herzele", "", "", "")
     pg.city("9550", "Hillegem", "", "", "")
@@ -268,8 +265,8 @@ def populate(pg):
     pg.city("9820", "Merelbeke", "", "", "")
     pg.city("9820", "Munte", "", "", "")
     pg.city("9820", "Schelderode", "", "", "")
-    pg.city("9830", "Laethem-Saint-Martin",
-            "Sint-Martens-Latem", "Sint-Martens-Latem")
+    pg.city("9830", "Laethem-Saint-Martin", "Sint-Martens-Latem",
+            "Sint-Martens-Latem")
     pg.city("9831", "Deurle", "", "", "")
     pg.city("9840", "De Pinte", "", "", "")
     pg.city("9840", "Zevergem", "", "", "")
@@ -325,5 +322,3 @@ def populate(pg):
     pg.city("9990", "Maldegem", "", "", "")
     pg.city("9991", "Adegem", "", "", "")
     pg.city("9992", "Middelburg", "", "", "")
-
-    

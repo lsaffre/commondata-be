@@ -4,12 +4,11 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
-    pg.province("Brabant wallon", "Waals-Brabant", "Wallonisch-Brabant", "Brabant wallon")
+    pg.province("Brabant wallon", "Waals-Brabant", "Wallonisch-Brabant",
+                "Brabant wallon")
     pg.set_args('zip_code fr nl de en')
 
     pg.city("1300", "Wavre", "Waver")

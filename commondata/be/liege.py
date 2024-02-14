@@ -4,8 +4,6 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
@@ -21,7 +19,7 @@ def populate(pg):
     pg.township("4030", "Grivegnée", "", "", wa="Grimgnêye")
     pg.township("4031", "Angleur", "", "")
     pg.township("4032", "Chênée", "", "")
-    
+
     pg.city("4750", "Butgenbach", "Butgenbach", "Bütgenbach", "Butgenbach")
     pg.city("4760", "Bullange", "Büllingen", "Büllingen", "Büllingen")
     pg.city("4780", "Saint-Vith", "Sankt Vith", "Sankt Vith", "Sankt Vith")
@@ -46,7 +44,7 @@ def populate(pg):
     pg.township("4121", "Neuville-en-Condroz", "", "", "")
     pg.township("4122", "Plainevaux", "", "", "")
     pg.village("4120", "Houte-Si-Plou", "", "", "")
-    
+
     pg.city("4130", "Esneux", "", "", "")
     pg.city("4130", "Tilff", "", "", "")
     pg.city("4140", "Dolembreux", "", "", "")
@@ -336,7 +334,7 @@ def populate(pg):
     pg.city("4783", "Lommersweiler", "", "", "")
     pg.city("4784", "Crombach", "", "", "")
     pg.city("4790", "Burg-Reuland", "", "", "")
-    
+
     villages_in_reuland = """
     Aldringen
     Alster
@@ -366,7 +364,7 @@ def populate(pg):
     """
     for name in villages_in_reuland.strip().split():
         pg.village("4790", name, "", "", "")
-    
+
     pg.city("4800", "Ensival", "", "", "")
     pg.city("4800", "Lambermont", "", "", "")
     pg.city("4800", "Petit-Rechain", "", "", "")

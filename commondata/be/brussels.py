@@ -4,8 +4,6 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('zip_code fr nl de en')
@@ -138,4 +136,3 @@ def populate(pg):
     pg.city("1981", "Hofstade (Bt.)", "", "", "")
     pg.city("1982", "Elewijt", "", "", "")
     pg.city("1982", "Weerde", "", "", "")
-

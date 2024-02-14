@@ -3,13 +3,11 @@ from os.path import join
 
 # ROOTDIR = join(__file__, '..')
 
-
 # class DocTests(TestCase):
 #     project_root = ROOTDIR
-   
+
 #     def test_docs(self):
 #         self.run_simple_doctests('/README.rst')
-
 
 from unittest import TestCase
 import doctest

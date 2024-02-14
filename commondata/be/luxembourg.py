@@ -4,8 +4,6 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
@@ -71,7 +69,6 @@ def populate(pg):
     pg.city("6791", "Athus", "", "", "")
     pg.city("6792", "Halanzy", "", "", "")
     pg.city("6792", "Rachecourt", "", "", "")
-    
 
     pg.city("6800", "Bras", "", "", "")
     pg.city("6800", "Freux", "", "", "")

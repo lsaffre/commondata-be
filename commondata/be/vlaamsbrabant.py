@@ -4,13 +4,12 @@
 from __future__ import unicode_literals
 
 
-
-
 def populate(pg):
 
     pg.set_args('fr nl de en')
-    pg.province("Brabant flamant", "Vlaams-Brabant", "Flämisch-Brabant", "Brabant flamant")
-    
+    pg.province("Brabant flamant", "Vlaams-Brabant", "Flämisch-Brabant",
+                "Brabant flamant")
+
     pg.set_args('zip_code fr nl de en')
 
     pg.city("3000", "Louvain", "Leuven", "Löwen", "Löwen")
@@ -55,7 +54,7 @@ def populate(pg):
     pg.city("3150", "Wespelaar", "", "", "")
     pg.city("3190", "Boortmeerbeek", "", "", "")
     pg.city("3191", "Hever", "", "", "")
-    
+
     pg.city("3200", "Aarschot", "", "", "")
     pg.city("3200", "Gelrode", "", "", "")
     pg.city("3201", "Langdorp", "", "", "")
@@ -163,7 +162,8 @@ def populate(pg):
     pg.city("3540", "Berbroek", "", "", "")
     pg.city("3540", "Donk", "", "", "")
     pg.city("3540", "Schulen", "", "", "")
-    pg.city("3540", "Herck-la-Ville", "Herk-de-Stad", "Herk-de-Stad", "Herk-de-Stad")
+    pg.city("3540", "Herck-la-Ville", "Herk-de-Stad", "Herk-de-Stad",
+            "Herk-de-Stad")
     pg.city("3545", "Halen", "", "", "")
     pg.city("3545", "Loksbergen", "", "", "")
     pg.city("3545", "Zelem", "", "", "")
@@ -289,7 +289,8 @@ def populate(pg):
     pg.city("3800", "Kerkom-bij-Sint-Truiden", "", "", "")
     pg.city("3800", "Ordingen", "", "", "")
     pg.city("3800", "Zepperen", "", "", "")
-    pg.city("3800", "Saint-Trond", "Sint-Truiden", "Saint-Trond", "Saint-Trond")
+    pg.city("3800", "Saint-Trond", "Sint-Truiden", "Saint-Trond",
+            "Saint-Trond")
     pg.city("3803", "Duras", "", "", "")
     pg.city("3803", "Gorsem", "", "", "")
     pg.city("3803", "Runkelen", "", "", "")
@@ -369,4 +370,3 @@ def populate(pg):
     pg.city("3990", "Kleine-Brogel", "", "", "")
     pg.city("3990", "Peer", "", "", "")
     pg.city("3990", "Wijchmaal", "", "", "")
-    
