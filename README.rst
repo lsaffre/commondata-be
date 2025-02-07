@@ -2,8 +2,6 @@
 The ``commondata.be`` package
 =============================
 
-
-
 `Common data <https://github.com/lsaffre/commondata>`_ about
 Belgium, freely available and maintained in Python.
 
@@ -36,5 +34,3 @@ entries into "village" or "township" entries:
 >>> eupen = liege.get(fr="Eupen")
 >>> print(eupen.zip_code)
 4700
-
-
